@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.container {
+			background-color: #FFFFCC;
+			width: 500px;
+			height: 250px;
+			margin: 0px auto;
+			font-family: Arial;
+			padding: 10px;
+		}
+		.content {
+			display: flex;
+		}
+        .menu {
+        	margin-top: 25px;
+        	width: 100%;
+        	color: #000066;
+        	display: flex;
+        	margin-left: 20%;
+        }
+        .menu label {
+        	margin: 0px auto;
+        }
+        .meunu input {
+        	margin-right: 10px;
+        }
+        .button {
+        	float: right;
+        }
+	</style>
+</head>
+<body>
+<form><div class="container">
+	<h1 style="color:#0000CC" >ĐĂNG NHẬP HỆ THỐNG </h1>
+  <div class="content">
+  	<img src="photo/login.png">
+  <div><div class="menu">
+  		<label>Tài khoản  </label>
+  		<input required type="text ">
+  	</div>
+  	<div class="menu">
+  		<label>Mật khẩu  </label>
+  		<input required type="Password">
+  	</div>
+  <div class="button">
+  	<button type="button" onclick="dangnhap()">Đăng nhập </button>
+  	<button type="reset">Nhập lại </button>
+  </div>
+<script type="text/javascript">
+ function dangnhap() {
+ 	alert{'Đăng nhập thành công '}
+ }
+ 
+</script></form>
+</body>
+</html>
